@@ -1,0 +1,117 @@
+/* Scss Document */
+.headph
+{
+	font-size:40px;
+	color:#03a9f4;
+	display:inline;	
+}
+.apple1
+{
+	height:60px;
+	width:250px;
+	border:1px solid;
+	float:right;
+	margin:15px;
+	color:#000;
+}
+.apple1:hover
+{
+	background:#000;
+	color:#fff;
+}
+.android1
+{
+	height:60px;
+	width:250px;
+	border:1px solid;
+	float:right;
+	margin:15px;
+	color:#000;
+}
+.android1:hover
+{
+	background:#689F38;
+	color:#fff;
+}
+.windows1
+{
+	height:60px;
+	width:250px;
+	border:1px solid;
+	float:right;
+	margin:15px;
+	color:#000;
+}
+.windows1:hover
+{
+	background:#03a9f4;
+	color:#fff;
+}
+.applelogo,.appletext,
+{
+	display:inline;
+}
+.applelogo
+{
+	font-size:40px;
+	float:left;
+	padding-left:30px
+}
+.appletext
+{
+	float:right;
+	padding-right:30px;
+}
+.androidlogo,.adnroidtext,
+{
+	display:inline;
+}
+.androidlogo
+{
+	font-size:40px;
+	float:left;
+	padding-left:20px;
+	padding-bottom:5px;
+}
+.androidtext
+{
+	float:right;
+	padding-right:27px;
+}
+.windowslogo,.windowstext,
+{
+	display:inline;
+}
+.windowslogo
+{
+	font-size:40px;
+	float:left;
+	padding-left:20px;
+	padding-top:4px;
+}
+.windowstext
+{
+	float:right;
+	padding-right:27px;
+}
+.logoslider li
+{
+	list-style:none;
+	float:right;
+	padding-right:100px;
+     animation:scroll 10s linear infinite;
+
+}
+
+.logoslider li:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes scroll{
+0% {left:800px;}
+100% {left:-800px;}
+}
+
+
